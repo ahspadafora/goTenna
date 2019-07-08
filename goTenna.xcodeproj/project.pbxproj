@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043DE37922D36D0B0050E78B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DE37822D36D0B0050E78B /* AppDelegate.swift */; };
+		043DE37B22D36D0B0050E78B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DE37A22D36D0B0050E78B /* ViewController.swift */; };
+		043DE37E22D36D0B0050E78B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043DE37C22D36D0B0050E78B /* Main.storyboard */; };
+		043DE38122D36D0B0050E78B /* goTenna.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 043DE37F22D36D0B0050E78B /* goTenna.xcdatamodeld */; };
+		043DE38322D36D0D0050E78B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043DE38222D36D0D0050E78B /* Assets.xcassets */; };
+		043DE38622D36D0D0050E78B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043DE38422D36D0D0050E78B /* LaunchScreen.storyboard */; };
+		043DE39122D36D0D0050E78B /* goTennaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DE39022D36D0D0050E78B /* goTennaTests.swift */; };
+		043DE39C22D36D0D0050E78B /* goTennaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043DE39B22D36D0D0050E78B /* goTennaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		043DE38D22D36D0D0050E78B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043DE36D22D36D0A0050E78B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043DE37422D36D0B0050E78B;
+			remoteInfo = goTenna;
+		};
+		043DE39822D36D0D0050E78B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043DE36D22D36D0A0050E78B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043DE37422D36D0B0050E78B;
+			remoteInfo = goTenna;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043DE37522D36D0B0050E78B /* goTenna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goTenna.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043DE37822D36D0B0050E78B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		043DE37A22D36D0B0050E78B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		043DE37D22D36D0B0050E78B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043DE38022D36D0B0050E78B /* goTenna.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = goTenna.xcdatamodel; sourceTree = "<group>"; };
+		043DE38222D36D0D0050E78B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043DE38522D36D0D0050E78B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		043DE38722D36D0D0050E78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043DE38C22D36D0D0050E78B /* goTennaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goTennaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043DE39022D36D0D0050E78B /* goTennaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goTennaTests.swift; sourceTree = "<group>"; };
+		043DE39222D36D0D0050E78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043DE39722D36D0D0050E78B /* goTennaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goTennaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043DE39B22D36D0D0050E78B /* goTennaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goTennaUITests.swift; sourceTree = "<group>"; };
+		043DE39D22D36D0D0050E78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043DE37222D36D0B0050E78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043DE38922D36D0D0050E78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043DE39422D36D0D0050E78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043DE36C22D36D0A0050E78B = {
+			isa = PBXGroup;
+			children = (
+				043DE37722D36D0B0050E78B /* goTenna */,
+				043DE38F22D36D0D0050E78B /* goTennaTests */,
+				043DE39A22D36D0D0050E78B /* goTennaUITests */,
+				043DE37622D36D0B0050E78B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		043DE37622D36D0B0050E78B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043DE37522D36D0B0050E78B /* goTenna.app */,
+				043DE38C22D36D0D0050E78B /* goTennaTests.xctest */,
+				043DE39722D36D0D0050E78B /* goTennaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043DE37722D36D0B0050E78B /* goTenna */ = {
+			isa = PBXGroup;
+			children = (
+				043DE37822D36D0B0050E78B /* AppDelegate.swift */,
+				043DE37A22D36D0B0050E78B /* ViewController.swift */,
+				043DE37C22D36D0B0050E78B /* Main.storyboard */,
+				043DE38222D36D0D0050E78B /* Assets.xcassets */,
+				043DE38422D36D0D0050E78B /* LaunchScreen.storyboard */,
+				043DE38722D36D0D0050E78B /* Info.plist */,
+				043DE37F22D36D0B0050E78B /* goTenna.xcdatamodeld */,
+			);
+			path = goTenna;
+			sourceTree = "<group>";
+		};
+		043DE38F22D36D0D0050E78B /* goTennaTests */ = {
+			isa = PBXGroup;
+			children = (
+				043DE39022D36D0D0050E78B /* goTennaTests.swift */,
+				043DE39222D36D0D0050E78B /* Info.plist */,
+			);
+			path = goTennaTests;
+			sourceTree = "<group>";
+		};
+		043DE39A22D36D0D0050E78B /* goTennaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				043DE39B22D36D0D0050E78B /* goTennaUITests.swift */,
+				043DE39D22D36D0D0050E78B /* Info.plist */,
+			);
+			path = goTennaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043DE37422D36D0B0050E78B /* goTenna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043DE3A022D36D0D0050E78B /* Build configuration list for PBXNativeTarget "goTenna" */;
+			buildPhases = (
+				043DE37122D36D0B0050E78B /* Sources */,
+				043DE37222D36D0B0050E78B /* Frameworks */,
+				043DE37322D36D0B0050E78B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = goTenna;
+			productName = goTenna;
+			productReference = 043DE37522D36D0B0050E78B /* goTenna.app */;
+			productType = "com.apple.product-type.application";
+		};
+		043DE38B22D36D0D0050E78B /* goTennaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043DE3A322D36D0D0050E78B /* Build configuration list for PBXNativeTarget "goTennaTests" */;
+			buildPhases = (
+				043DE38822D36D0D0050E78B /* Sources */,
+				043DE38922D36D0D0050E78B /* Frameworks */,
+				043DE38A22D36D0D0050E78B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043DE38E22D36D0D0050E78B /* PBXTargetDependency */,
+			);
+			name = goTennaTests;
+			productName = goTennaTests;
+			productReference = 043DE38C22D36D0D0050E78B /* goTennaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		043DE39622D36D0D0050E78B /* goTennaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043DE3A622D36D0D0050E78B /* Build configuration list for PBXNativeTarget "goTennaUITests" */;
+			buildPhases = (
+				043DE39322D36D0D0050E78B /* Sources */,
+				043DE39422D36D0D0050E78B /* Frameworks */,
+				043DE39522D36D0D0050E78B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043DE39922D36D0D0050E78B /* PBXTargetDependency */,
+			);
+			name = goTennaUITests;
+			productName = goTennaUITests;
+			productReference = 043DE39722D36D0D0050E78B /* goTennaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043DE36D22D36D0A0050E78B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Amber Spadafora";
+				TargetAttributes = {
+					043DE37422D36D0B0050E78B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					043DE38B22D36D0D0050E78B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 043DE37422D36D0B0050E78B;
+					};
+					043DE39622D36D0D0050E78B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 043DE37422D36D0B0050E78B;
+					};
+				};
+			};
+			buildConfigurationList = 043DE37022D36D0A0050E78B /* Build configuration list for PBXProject "goTenna" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043DE36C22D36D0A0050E78B;
+			productRefGroup = 043DE37622D36D0B0050E78B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043DE37422D36D0B0050E78B /* goTenna */,
+				043DE38B22D36D0D0050E78B /* goTennaTests */,
+				043DE39622D36D0D0050E78B /* goTennaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043DE37322D36D0B0050E78B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043DE38622D36D0D0050E78B /* LaunchScreen.storyboard in Resources */,
+				043DE38322D36D0D0050E78B /* Assets.xcassets in Resources */,
+				043DE37E22D36D0B0050E78B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043DE38A22D36D0D0050E78B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043DE39522D36D0D0050E78B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043DE37122D36D0B0050E78B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043DE38122D36D0B0050E78B /* goTenna.xcdatamodeld in Sources */,
+				043DE37B22D36D0B0050E78B /* ViewController.swift in Sources */,
+				043DE37922D36D0B0050E78B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043DE38822D36D0D0050E78B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043DE39122D36D0D0050E78B /* goTennaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043DE39322D36D0D0050E78B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043DE39C22D36D0D0050E78B /* goTennaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		043DE38E22D36D0D0050E78B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043DE37422D36D0B0050E78B /* goTenna */;
+			targetProxy = 043DE38D22D36D0D0050E78B /* PBXContainerItemProxy */;
+		};
+		043DE39922D36D0D0050E78B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043DE37422D36D0B0050E78B /* goTenna */;
+			targetProxy = 043DE39822D36D0D0050E78B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		043DE37C22D36D0B0050E78B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043DE37D22D36D0B0050E78B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043DE38422D36D0D0050E78B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043DE38522D36D0D0050E78B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043DE39E22D36D0D0050E78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		043DE39F22D36D0D0050E78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043DE3A122D36D0D0050E78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EPPV2KGY3C;
+				INFOPLIST_FILE = goTenna/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahspadafora.goTenna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		043DE3A222D36D0D0050E78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EPPV2KGY3C;
+				INFOPLIST_FILE = goTenna/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahspadafora.goTenna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		043DE3A422D36D0D0050E78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EPPV2KGY3C;
+				INFOPLIST_FILE = goTennaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahspadafora.goTennaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/goTenna.app/goTenna";
+			};
+			name = Debug;
+		};
+		043DE3A522D36D0D0050E78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EPPV2KGY3C;
+				INFOPLIST_FILE = goTennaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahspadafora.goTennaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/goTenna.app/goTenna";
+			};
+			name = Release;
+		};
+		043DE3A722D36D0D0050E78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EPPV2KGY3C;
+				INFOPLIST_FILE = goTennaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahspadafora.goTennaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = goTenna;
+			};
+			name = Debug;
+		};
+		043DE3A822D36D0D0050E78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EPPV2KGY3C;
+				INFOPLIST_FILE = goTennaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahspadafora.goTennaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = goTenna;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043DE37022D36D0A0050E78B /* Build configuration list for PBXProject "goTenna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043DE39E22D36D0D0050E78B /* Debug */,
+				043DE39F22D36D0D0050E78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043DE3A022D36D0D0050E78B /* Build configuration list for PBXNativeTarget "goTenna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043DE3A122D36D0D0050E78B /* Debug */,
+				043DE3A222D36D0D0050E78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043DE3A322D36D0D0050E78B /* Build configuration list for PBXNativeTarget "goTennaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043DE3A422D36D0D0050E78B /* Debug */,
+				043DE3A522D36D0D0050E78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043DE3A622D36D0D0050E78B /* Build configuration list for PBXNativeTarget "goTennaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043DE3A722D36D0D0050E78B /* Debug */,
+				043DE3A822D36D0D0050E78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		043DE37F22D36D0B0050E78B /* goTenna.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				043DE38022D36D0B0050E78B /* goTenna.xcdatamodel */,
+			);
+			currentVersion = 043DE38022D36D0B0050E78B /* goTenna.xcdatamodel */;
+			path = goTenna.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 043DE36D22D36D0A0050E78B /* Project object */;
+}
